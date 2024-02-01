@@ -12,7 +12,7 @@ const Products = () => {
 
     let ignore = false;
 
-    fetch("/api/products.json")
+    fetch("./api/products.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
