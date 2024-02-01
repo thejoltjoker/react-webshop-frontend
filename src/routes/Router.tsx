@@ -1,13 +1,13 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import MainLayout from "../pages/MainLayout";
 import Products from "../pages/Products";
 import ErrorNotFound from "../pages/ErrorNotFound";
 import ProductPage from "../pages/ProductPage";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
-    path: "/react-webshop-frontend/",
+    path: "/",
     element: <MainLayout />,
 
     errorElement: <ErrorNotFound />,
