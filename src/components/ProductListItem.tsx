@@ -7,7 +7,7 @@ interface ProductListItemProps {
 }
 
 const ProductListItem = ({ product }: ProductListItemProps) => {
-  return (
+  return <>
     <Link to={`/product/${product.id}-${_.kebabCase(product.name)}`}>
       <div className="group rounded-sm p-4 text-xs uppercase tracking-widest transition hover:bg-gray-100">
         <img
@@ -36,7 +36,8 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
         </div>
       </div>
     </Link>
-  );
+    </>
+  
 };
 
 export default ProductListItem;

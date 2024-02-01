@@ -1,9 +1,6 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <nav className="border-gray-200 bg-white ">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">

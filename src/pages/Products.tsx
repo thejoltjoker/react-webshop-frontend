@@ -6,7 +6,6 @@ import ProductListFilter from "../components/ProductListFilter";
 
 const Products = () => {
   const [products, setProducts] = useState<Product[]>();
-  const [categories, setCategories] = useState<string[]>();
 
   useEffect(() => {
     if (products) return;
