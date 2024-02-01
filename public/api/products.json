@@ -1,0 +1,541 @@
+{
+  "items": [
+    {
+      "id": 155,
+      "name": "Sarek HS Jacket",
+      "category": "Jackets",
+      "brand": "XYZ Brand",
+      "price": 299.99,
+      "color": "Yellow",
+      "sizes": ["s", "m"],
+      "material": "Nylon",
+      "description": "Beautiful and comfortable hard shell jacket for all your outdoor adventures.",
+      "shortDescription": "Stylish Adventure Jacket",
+      "images": ["sarek_hs_jacket_01.jpg"],
+      "availability": true,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "User1",
+          "rating": 4.5,
+          "comment": "Great fit and quality!"
+        },
+        { "username": "User2", "rating": 5, "comment": "Love the color." },
+        { "username": "User3", "rating": 4, "comment": "Comfortable to wear." }
+      ]
+    },
+    {
+      "id": 87654,
+      "name": "SummitX Ultra-Light Shell Jacket",
+      "category": "Shell Jackets",
+      "brand": "AdventureTech",
+      "price": 219.99,
+      "color": "Storm Gray",
+      "sizes": ["M", "L", "XL"],
+      "material": "TechShield™ 3-Layer Fabric",
+      "description": "Designed for those who crave speed and prioritize every ounce in their gear, our SummitX Ultra-Light Shell Jacket is the ultimate companion for fast-paced adventures. Crafted with cutting-edge TechShield™ fabric, this jacket offers unparalleled durability and reliable weather protection in the harshest conditions. Weighing in as one of the lightest in our series, the SummitX features a proprietary 3-layer material that balances breathability, abrasion resistance, and minimal weight.\n\nBuilt for top athletic performance, the SummitX embraces a minimalist design without compromising essential features. The adjustable hood is engineered to fit seamlessly over climbing helmets, ensuring both freedom of movement and optimal protection. The 2-way zipper facilitates easy access to your climbing harness, enhancing versatility in challenging terrains.\n\nWhen the jacket is not in use, its compressibility allows for convenient storage in a separate packing bag, making it an essential choice for those who prioritize space efficiency. Reflective details enhance visibility, adding an extra layer of safety to your mountain pursuits.\n\nBreathable, abrasion-proof, and feather-light, the SummitX Ultra-Light Shell Jacket is the result of collaboration with outdoor enthusiasts and athletes. Whether you're tackling ambitious mountain climbs or embarking on high-intensity activities, this hardshell jacket is engineered to meet the demands of the most dedicated adventurers.",
+      "shortDescription": "Ultra-Light Performance Shell",
+      "images": ["summitx_shell_jacket_01.jpg", "summitx_shell_jacket_02.jpg"],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "FastAndLight",
+          "rating": 5,
+          "comment": "Perfect for high-speed adventures, incredibly light yet durable."
+        },
+        {
+          "username": "ExtremeExplorer",
+          "rating": 4.8,
+          "comment": "Great protection in harsh weather conditions, love the minimalist design."
+        },
+        {
+          "username": "TrailBlazer",
+          "rating": 5,
+          "comment": "An essential for any serious adventurer, highly recommended."
+        }
+      ]
+    },
+    {
+      "id": 2341,
+      "name": "ActiveFlex Performance Tee",
+      "category": "Active T-shirts",
+      "brand": "ProMotion",
+      "price": 29.99,
+      "color": "Royal Blue",
+      "sizes": ["M", "L", "XL"],
+      "material": "Moisture-Wicking Polyester Blend",
+      "description": "High-performance active T-shirt with moisture-wicking technology, designed for maximum comfort during workouts and sports activities.",
+      "shortDescription": "Performance-Driven Active Tee",
+      "images": ["activeflex_tshirt_01.jpg", "activeflex_tshirt_02.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "FitnessFanatic",
+          "rating": 4.9,
+          "comment": "Keeps me dry and comfortable during intense workouts."
+        },
+        {
+          "username": "AthletePro",
+          "rating": 4.7,
+          "comment": "Flexible fabric, great for various sports activities."
+        },
+        {
+          "username": "ActiveLifestyle",
+          "rating": 5,
+          "comment": "Stylish and functional, perfect for an active lifestyle."
+        }
+      ]
+    },
+    {
+      "id": 9623,
+      "name": "CottonComfort Basic T-shirt",
+      "category": "T-shirts",
+      "brand": "EssentialWear",
+      "price": 19.99,
+      "color": "White",
+      "sizes": ["S", "M", "L"],
+      "material": "100% Cotton",
+      "description": "Classic and comfortable basic T-shirt made from high-quality 100% cotton for everyday wear.",
+      "shortDescription": "Essential Cotton Tee",
+      "images": ["cottoncomfort_tshirt_01.jpg", "cottoncomfort_tshirt_02.jpg"],
+      "availability": true,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "CasualChic",
+          "rating": 4.7,
+          "comment": "Soft and comfortable, perfect for casual outings."
+        },
+        {
+          "username": "FashionForward",
+          "rating": 4.5,
+          "comment": "Great fit and a wardrobe essential."
+        },
+        {
+          "username": "ComfortFanatic",
+          "rating": 4.2,
+          "comment": "Breathable fabric, ideal for everyday comfort."
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "name": "Summit XT Hiking Boots",
+      "category": "Footwear",
+      "brand": "ABC Outdoors",
+      "price": 129.99,
+      "color": "Charcoal Gray",
+      "sizes": ["8", "9", "10", "11"],
+      "material": "Leather",
+      "description": "Durable and waterproof hiking boots for challenging terrains and adventurous trails.",
+      "shortDescription": "Rugged Hiking Boots",
+      "images": ["summit_xt_boots_01.jpg"],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "Hiker123",
+          "rating": 4.8,
+          "comment": "Excellent grip on slippery surfaces!"
+        },
+        {
+          "username": "TrailExplorer",
+          "rating": 4.5,
+          "comment": "Comfortable for long hikes."
+        },
+        {
+          "username": "OutdoorEnthusiast",
+          "rating": 5,
+          "comment": "Stylish design, perfect for outdoor adventures."
+        }
+      ]
+    },
+    {
+      "id": 4856,
+      "name": "ArcticPro Insulated Parka",
+      "category": "Parkas",
+      "brand": "ExtremeGear",
+      "price": 249.99,
+      "color": "Arctic Blue",
+      "sizes": ["L", "XL", "XXL"],
+      "material": "Water-resistant Polyester",
+      "description": "Stay warm in extreme cold with this insulated parka, designed for harsh winter conditions.",
+      "shortDescription": "Arctic Expedition Parka",
+      "images": ["arcticpro_parka_01.jpg", "arcticpro_parka_02.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "ColdWeatherExplorer",
+          "rating": 4.5,
+          "comment": "Keeps me warm even in freezing temperatures!"
+        },
+        {
+          "username": "WinterAdventurer",
+          "rating": 4.7,
+          "comment": "Durable and perfect for snowy adventures."
+        },
+        {
+          "username": "PolarExplorer",
+          "rating": 5,
+          "comment": "Excellent insulation and stylish too!"
+        }
+      ]
+    },
+    {
+      "id": 7654,
+      "name": "TrekMaster Waterproof Hiking Boots",
+      "category": "Hiking Boots",
+      "brand": "TrailBlazer",
+      "price": 149.99,
+      "color": "Forest Green",
+      "sizes": ["7", "8", "9", "10"],
+      "material": "Leather and Gore-Tex",
+      "description": "Durable and waterproof hiking boots designed for challenging trails and unpredictable weather conditions.",
+      "shortDescription": "All-Terrain Hiking Boots",
+      "images": ["trekmaster_boots_01.jpg", "trekmaster_boots_02.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "TrailExplorer",
+          "rating": 4.7,
+          "comment": "Excellent grip on rocky terrains!"
+        },
+        {
+          "username": "NatureAdventurer",
+          "rating": 4.5,
+          "comment": "Waterproof and comfortable for long hikes."
+        },
+        {
+          "username": "HikingEnthusiast",
+          "rating": 4.8,
+          "comment": "Sturdy boots for all types of trails."
+        }
+      ]
+    },
+    {
+      "id": 9876,
+      "name": "AlpineX 3-in-1 Ski Jacket",
+      "category": "Ski Jackets",
+      "brand": "MountainPeak",
+      "price": 199.99,
+      "color": "Black/Red",
+      "sizes": ["S", "M", "L"],
+      "material": "Waterproof Nylon",
+      "description": "Versatile 3-in-1 ski jacket designed for alpine adventures, providing warmth and protection in varying weather conditions.",
+      "shortDescription": "Adaptable Ski Jacket",
+      "images": ["alpinex_ski_jacket_01.jpg", "alpinex_ski_jacket_02.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "SkiEnthusiast",
+          "rating": 4.9,
+          "comment": "Perfect for changing weather on the slopes!"
+        },
+        {
+          "username": "SnowExplorer",
+          "rating": 4.7,
+          "comment": "Comfortable and stylish design."
+        },
+        {
+          "username": "MountainRider",
+          "rating": 5,
+          "comment": "Excellent jacket for ski trips!"
+        }
+      ]
+    },
+    {
+      "id": 5432,
+      "name": "UrbanExplorer Lightweight Jacket",
+      "category": "Casual Jackets",
+      "brand": "CityStyle",
+      "price": 89.99,
+      "color": "Olive Green",
+      "sizes": ["XS", "S", "M"],
+      "material": "Cotton Blend",
+      "description": "Stylish and lightweight jacket, perfect for urban adventures and casual outings.",
+      "shortDescription": "City Chic Jacket",
+      "images": ["urbanexplorer_jacket_01.jpg", "urbanexplorer_jacket_02.jpg"],
+      "availability": true,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "CityFashionista",
+          "rating": 4.8,
+          "comment": "Love the trendy design and comfortable fit!"
+        },
+        {
+          "username": "StreetExplorer",
+          "rating": 4.5,
+          "comment": "Great for everyday wear, versatile and stylish."
+        },
+        {
+          "username": "CasualChic",
+          "rating": 4.2,
+          "comment": "Lightweight and easy to pair with different outfits."
+        }
+      ]
+    },
+    {
+      "id": 875565,
+      "name": "VentureTech All-Weather Shell",
+      "category": "Shell Jackets",
+      "brand": "AdventureBound",
+      "price": 179.99,
+      "color": "Steel Gray",
+      "sizes": ["M", "L", "XL"],
+      "material": "Waterproof Polyester",
+      "description": "Versatile all-weather shell jacket designed for outdoor exploration, providing protection in rain, wind, and snow.",
+      "shortDescription": "Weather-Resistant Adventure Jacket",
+      "images": ["venturetech_shell_01.jpg", "venturetech_shell_02.jpg"],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "OutdoorExplorer",
+          "rating": 4.8,
+          "comment": "Keeps me dry in heavy rain, highly recommended!"
+        },
+        {
+          "username": "WeatherWarrior",
+          "rating": 4.6,
+          "comment": "Durable and stylish, perfect for various climates."
+        },
+        {
+          "username": "AdventureSeeker",
+          "rating": 4.7,
+          "comment": "Great for outdoor activities in unpredictable weather."
+        }
+      ]
+    },
+    {
+      "id": 876353,
+      "name": "StormGuard Pro Shell Jacket",
+      "category": "Shell Jackets",
+      "brand": "WeatherWear",
+      "price": 189.99,
+      "color": "Graphite Gray",
+      "sizes": ["M", "L", "XL"],
+      "material": "Gore-Tex Pro",
+      "description": "High-performance shell jacket designed for extreme weather conditions, featuring top-notch waterproof and breathable technology.",
+      "shortDescription": "Weatherproof Shell Jacket",
+      "images": [
+        "stormguard_pro_jacket_01.jpg",
+        "stormguard_pro_jacket_02.jpg"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "ExtremeWeatherTester",
+          "rating": 5,
+          "comment": "Keeps me dry in heavy rain and snow!"
+        },
+        {
+          "username": "OutdoorSurvivor",
+          "rating": 4.8,
+          "comment": "Durable and reliable in challenging conditions."
+        },
+        {
+          "username": "AdventureSeeker",
+          "rating": 5,
+          "comment": "Comfortable and well-ventilated for all-day wear."
+        }
+      ]
+    },
+
+    {
+      "id": 325,
+      "name": "Striped Knit Sweater",
+      "category": "Sweaters",
+      "brand": "CozyStyles",
+      "price": 49.99,
+      "color": "Navy/White",
+      "size": "L",
+      "material": "Acrylic",
+      "description": "Stay warm and stylish with our navy and white striped knit sweater, perfect for chilly days.",
+      "shortDescription": "Cozy and chic striped knit sweater for a fashionable winter look.",
+      "images": ["image_url10.jpg", "image_url11.jpg", "image_url12.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "FashionistaGrace",
+          "rating": 5,
+          "comment": "Adorable sweater! The colors are vibrant, and it's so soft."
+        },
+        {
+          "username": "WinterWarmth",
+          "rating": 4.5,
+          "comment": "Keeps me warm in cold weather. Love the stylish design."
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Classic Leather Jacket",
+      "category": "Jackets",
+      "brand": "UrbanRider",
+      "price": 129.99,
+      "color": "Black",
+      "size": "XL",
+      "material": "Genuine Leather",
+      "description": "Timeless and rugged, our classic black leather jacket is a must-have for every man's wardrobe.",
+      "shortDescription": "Iconic black leather jacket for a timeless and stylish look.",
+      "images": ["image_url13.jpg", "image_url14.jpg", "image_url15.jpg"],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "RiderDude",
+          "rating": 5,
+          "comment": "Fantastic leather jacket! Great quality and fits perfectly."
+        },
+        {
+          "username": "StyleEnthusiast",
+          "rating": 4.8,
+          "comment": "Love the classic design. This jacket is a statement piece!"
+        }
+      ]
+    },
+    {
+      "id": 728,
+      "name": "Floral Print Summer Dress",
+      "category": "Tops",
+      "brand": "SunshineStyles",
+      "price": 34.99,
+      "color": "Pink/Yellow",
+      "size": "M",
+      "material": "Cotton Blend",
+      "description": "Elevate your summer wardrobe with this vibrant floral print dress. Perfect for sunny days and outdoor events.",
+      "shortDescription": "Stylish and comfortable floral print summer dress for a trendy look.",
+      "images": ["image_url16.jpg", "image_url17.jpg", "image_url18.jpg"],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "SummerBreeze",
+          "rating": 5,
+          "comment": "Adorable dress! The floral print is so charming, and it's lightweight for hot days."
+        },
+        {
+          "username": "FashionFloralista",
+          "rating": 4.5,
+          "comment": "Fits well and looks even better in person. Great buy!"
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "name": "Active Performance Hoodie",
+      "category": "Sweaters",
+      "brand": "TechFit",
+      "price": 44.99,
+      "color": "Charcoal Gray",
+      "size": "L",
+      "material": "Polyester Blend",
+      "description": "Stay active and comfortable with our performance hoodie. Ideal for workouts and outdoor activities.",
+      "shortDescription": "High-performance hoodie for active individuals seeking both style and functionality.",
+      "images": ["image_url19.jpg", "image_url20.jpg", "image_url21.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "FitLifestyle",
+          "rating": 5,
+          "comment": "Perfect for workouts! The material is breathable, and the fit is excellent."
+        },
+        {
+          "username": "OutdoorEnthusiast",
+          "rating": 4.3,
+          "comment": "Great hoodie for outdoor activities. Keeps you warm without overheating."
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "name": "All-Weather Adventure Jacket",
+      "category": "Jackets",
+      "brand": "TrailMaster",
+      "price": 79.99,
+      "color": "Forest Green",
+      "size": "XL",
+      "material": "Waterproof Nylon",
+      "description": "Conquer any outdoor adventure with our all-weather jacket. Waterproof, durable, and designed for maximum comfort in challenging conditions.",
+      "shortDescription": "Versatile all-weather jacket for outdoor enthusiasts. Stay dry and comfortable on your adventures.",
+      "images": ["image_url22.jpg", "image_url23.jpg", "image_url24.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "AdventureSeeker",
+          "rating": 5,
+          "comment": "This jacket is a game-changer! Waterproof and comfortable, perfect for hiking and camping."
+        },
+        {
+          "username": "OutdoorExplorer",
+          "rating": 4.7,
+          "comment": "Excellent quality. It kept me dry in heavy rain and looks great too."
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "name": "Mountain Expedition Parka",
+      "category": "Jackets",
+      "brand": "SummitPro",
+      "price": 129.99,
+      "color": "Ice Blue",
+      "size": "M",
+      "material": "Insulated Gore-Tex",
+      "description": "Designed for extreme cold conditions, our Mountain Expedition Parka provides exceptional warmth and protection. Ideal for high-altitude adventures.",
+      "shortDescription": "High-performance parka for mountain expeditions. Stay warm and comfortable in extreme conditions.",
+      "images": ["image_url25.jpg", "image_url26.jpg", "image_url27.jpg"],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "PeakClimber",
+          "rating": 5,
+          "comment": "Unbelievable warmth! Survived freezing temperatures at high altitudes without any issues."
+        },
+        {
+          "username": "ColdWeatherWarrior",
+          "rating": 4.8,
+          "comment": "Impressive insulation. The color is also a nice touch for outdoor enthusiasts."
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "name": "Trailblazer Convertible Pants",
+      "category": "Pants",
+      "brand": "ExploreTech",
+      "price": 59.99,
+      "color": "Slate Gray",
+      "size": "L",
+      "material": "Quick-Dry Nylon",
+      "description": "Versatile and practical, our Trailblazer Convertible Pants transform into shorts for varying outdoor conditions. Quick-drying and perfect for hiking and camping.",
+      "shortDescription": "Convertible pants for outdoor enthusiasts. Adapt to changing conditions with ease.",
+      "images": ["image_url28.jpg", "image_url29.jpg", "image_url30.jpg"],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "HikerPro",
+          "rating": 5,
+          "comment": "Love the versatility! Great for long hikes, and the quick-dry feature is a game-changer."
+        },
+        {
+          "username": "AdventureReady",
+          "rating": 4.5,
+          "comment": "Comfortable and practical. The convertible design is perfect for unpredictable weather."
+        }
+      ]
+    }
+  ]
+}
