@@ -13,7 +13,7 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
         <img
           src={
             product.images.length > 0
-              ? `/img/${product.images[0]}`
+              ? `./img/${product.images[0]}`
               : "https://placehold.co/600"
           }
           alt={product.name}

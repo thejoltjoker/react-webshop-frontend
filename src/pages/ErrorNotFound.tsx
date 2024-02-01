@@ -14,7 +14,7 @@ const ErrorNotFound = () => {
           </p>
         </div>
         <img
-          src="/img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
+          src="./img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
           alt=""
           className="self-center"
         />

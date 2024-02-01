@@ -38,7 +38,7 @@ const Products = () => {
           <h2 className=" text-4xl text-white">Explore our collections</h2>
         </div>
         <img
-          src="/img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
+          src="./img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
           alt=""
           className="self-center xl:mt-[14vh]"
         />

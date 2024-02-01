@@ -37,7 +37,7 @@ const ProductPage = () => {
     <div className="mx-auto max-w-screen-xl p-4">
       <div className="flex flex-wrap gap-4">
         <div className="shrink grow basis-3/5">
-          <img src={`/img/${product?.images[0]}`} alt="" />
+          <img src={`./img/${product?.images[0]}`} alt="" />
         </div>
 
         <div className="flex grow flex-col gap-4">
