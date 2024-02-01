@@ -7,8 +7,9 @@ import ProductPage from "../pages/ProductPage";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-webshop-frontend/",
     element: <MainLayout />,
+
     errorElement: <ErrorNotFound />,
     children: [
       {
