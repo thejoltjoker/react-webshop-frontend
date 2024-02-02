@@ -67,37 +67,41 @@ const ProductPage = () => {
           </div>
         </div>
 
-        <div className="flex grow basis-2/5 flex-col gap-4 md:pl-4">
-          <p className="text-sm uppercase tracking-widest text-gray-400">
-            {product?.category}
-          </p>
-          <div>
-            <h2 className="text-2xl font-semibold text-gray-900">
-              {product?.name}
-            </h2>
-            <p className="text-lg text-gray-600">{product?.shortDescription}</p>
+        <div className="relative flex grow basis-2/5 flex-col gap-4 md:pl-4">
+          <div className="sticky top-8 flex flex-col gap-4">
+            <p className="text-sm uppercase tracking-widest text-gray-400">
+              {product?.category}
+            </p>
+            <div>
+              <h2 className="text-2xl font-semibold text-gray-900">
+                {product?.name}
+              </h2>
+              <p className="text-lg text-gray-600">
+                {product?.shortDescription}
+              </p>
+            </div>
+            <p className="text-xs uppercase tracking-widest text-gray-600">
+              <span className="text-orange-500">
+                {_.meanBy(product?.reviews, (o) => o.rating).toFixed(1)} / 5
+              </span>{" "}
+              <br />
+              {product?.reviews.length} reviews
+            </p>
+            <p className="text-xl">${product?.price}</p>
+            <div className="text-style-base flex items-center gap-4 text-xs">
+              <p className="text-gray-500">Size:</p>
+              <select
+                name=""
+                id=""
+                className="grow rounded-sm border border-gray-300 px-4 py-2 text-xs uppercase tracking-widest  text-gray-400 transition hover:bg-gray-100 hover:text-gray-900"
+              >
+                {product?.sizes.map((s) => <option>{s}</option>)}
+              </select>
+            </div>
+            <button className="rounded-sm bg-gray-600 px-4 py-4 text-xs uppercase tracking-widest text-white">
+              Add to cart
+            </button>
           </div>
-          <p className="text-xs uppercase tracking-widest text-gray-600">
-            <span className="text-orange-500">
-              {_.meanBy(product?.reviews, (o) => o.rating).toFixed(1)} / 5
-            </span>{" "}
-            <br />
-            {product?.reviews.length} reviews
-          </p>
-          <p className="text-xl">${product?.price}</p>
-          <div className="text-style-base flex items-center gap-4 text-xs">
-            <p className="text-gray-500">Size:</p>
-            <select
-              name=""
-              id=""
-              className="grow rounded-sm border border-gray-300 px-4 py-2 text-xs uppercase tracking-widest  text-gray-400 transition hover:bg-gray-100 hover:text-gray-900"
-            >
-              {product?.sizes.map((s) => <option>{s}</option>)}
-            </select>
-          </div>
-          <button className="rounded-sm bg-gray-600 px-4 py-4 text-xs uppercase tracking-widest text-white">
-            Add to cart
-          </button>
         </div>
         <div className="mb-8 w-3/5">
           <h5 className="mb-4 font-semibold">Description</h5>
