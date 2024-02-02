@@ -38,7 +38,7 @@ const Products = () => {
           <h2 className=" text-4xl text-white">Explore our collections</h2>
         </div>
         <img
-          src="./img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
+          src="/react-webshop-frontend/img/gantas-vaiciulenas-FVz5fDfGFFw-unsplash.jpg"
           alt=""
           className="self-center xl:mt-[14vh]"
         />
@@ -46,7 +46,7 @@ const Products = () => {
       <div className="mx-auto max-w-screen-xl p-4">
         <h3 className="text-lg font-semibold">Products</h3>
         <ProductListFilter products={products} />
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {products?.map((product) => (
             <ProductListItem key={product.id} product={product} />
           ))}
