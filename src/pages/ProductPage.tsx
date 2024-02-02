@@ -1,11 +1,13 @@
+import _ from "lodash";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ApiResponse } from "../models/ApiResponse";
 import { Product } from "../models/Product";
-import _ from "lodash";
+import { useShoppingCart } from "../hooks/useLocalStorage";
 
 const ProductPage = () => {
   const [product, setProduct] = useState<Product>();
+  const [cart, setCart] = useShoppingCart("cart", []);
   const [featuredImage, setFeaturedImage] = useState("");
   const { slug } = useParams();
   const id = slug?.split("-")[0];
@@ -95,10 +97,18 @@ const ProductPage = () => {
                 id=""
                 className="grow rounded-sm border border-gray-300 px-4 py-2 text-xs uppercase tracking-widest  text-gray-400 transition hover:bg-gray-100 hover:text-gray-900"
               >
-                {product?.sizes.map((s) => <option>{s}</option>)}
+                {product?.sizes.map((s) => <option key={s}>{s}</option>)}
               </select>
             </div>
-            <button className="rounded-sm bg-gray-600 px-4 py-4 text-xs uppercase tracking-widest text-white">
+            <button
+              className="rounded-sm bg-gray-600 px-4 py-4 text-xs uppercase tracking-widest text-white"
+              onClick={() => {
+                setCart([
+                  ...cart,
+                  { cartId: Date.now().toString(), product: product },
+                ]);
+              }}
+            >
               Add to cart
             </button>
           </div>
@@ -128,7 +138,10 @@ const ProductPage = () => {
           <ul>
             {product?.reviews.map((review) => {
               return (
-                <li className="mb-8">
+                <li
+                  className="mb-8"
+                  key={`${review.username}-${review.rating}`}
+                >
                   <div className="flex">
                     <p className="text-style-title text-xs text-gray-500">
                       @{review.username}

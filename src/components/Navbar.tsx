@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { useShoppingCart } from "../hooks/useLocalStorage";
 
 const Navbar = () => {
+  const [cart, setCart] = useShoppingCart("cart", []);
   return (
     <nav className="border-gray-200 bg-white ">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
@@ -73,7 +75,7 @@ const Navbar = () => {
             </li> */}
             <li>
               <NavLink
-                to="./products"
+                to="/products"
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 "
               >
                 Products
@@ -81,12 +83,12 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a
-                href="#"
+              <NavLink
+                to="/cart"
                 className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 "
               >
-                (0) Cart
-              </a>
+                ({cart.length}) Cart
+              </NavLink>
             </li>
           </ul>
         </div>

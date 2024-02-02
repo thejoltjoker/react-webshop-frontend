@@ -4,7 +4,7 @@ import { ApiResponse } from "../models/ApiResponse";
 import ProductListItem from "../components/ProductListItem";
 import ProductListFilter from "../components/ProductListFilter";
 
-const Products = () => {
+const ProductsPage = () => {
   const [products, setProducts] = useState<Product[]>();
 
   useEffect(() => {
@@ -57,4 +57,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductsPage;
