@@ -107,8 +107,10 @@ const ProductPage = () => {
           <p
             className="text-style-base text-pale py-4 text-sm"
             onClick={(e: React.MouseEvent<HTMLParagraphElement>) => {
+              const previousSibling = e.currentTarget
+                .previousSibling as HTMLElement;
               if (e.currentTarget.previousSibling) {
-                e.currentTarget.previousSibling.classList =
+                previousSibling.className =
                   "line-clamp-none whitespace-pre-line";
                 e.currentTarget.style.display = "none";
               }
