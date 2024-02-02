@@ -2,74 +2,84 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+              <span className="text-style-base self-center whitespace-nowrap font-semibold ">
                 Adventure Apparel
               </span>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
+          <div className="text-style-base grid grid-cols-2 gap-8 text-xs sm:grid-cols-3 sm:gap-6">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-                Resources
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 ">
+                Built with
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-500 ">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <Link to="https://flowbite.com/" className="hover:underline">
+                    Vite
+                  </Link>
+                </li>
+                <li className="mb-4">
+                  <Link to="https://flowbite.com/" className="hover:underline">
+                    React
+                  </Link>
+                </li>
+                <li className="mb-4">
+                  <Link to="https://flowbite.com/" className="hover:underline">
                     Flowbite
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
+                  <Link
+                    to="https://tailwindcss.com/"
                     className="hover:underline"
                   >
                     Tailwind CSS
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 ">
                 Follow us
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-500 ">
                 <li className="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
+                  <Link
+                    to="https://github.com/themesberg/flowbite"
                     className="hover:underline "
                   >
                     Github
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
+                  <Link
+                    to="https://discord.gg/4eeurUVvTy"
                     className="hover:underline"
                   >
                     Discord
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 ">
                 Legal
               </h2>
-              <ul className="font-medium text-gray-500 dark:text-gray-400">
+              <ul className="font-medium text-gray-500 ">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link to="#" className="hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link to="#" className="hover:underline">
                     Terms &amp; Conditions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -77,18 +87,15 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          <span className="text-sm text-gray-500  sm:text-center">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <Link to="https://flowbite.com/" className="hover:underline">
               Adventure Apparel
-            </a>
+            </Link>
             . All Rights Reserved.
           </span>
           <div className="mt-4 flex sm:mt-0 sm:justify-center">
-            <a
-              href="#"
-              className="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <Link to="#" className="ms-5 text-gray-500 hover:text-gray-900 ">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -103,11 +110,8 @@ const Footer = () => {
                 />
               </svg>
               <span className="sr-only">Twitter page</span>
-            </a>
-            <a
-              href="#"
-              className="ms-5 text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            </Link>
+            <Link to="#" className="ms-5 text-gray-500 hover:text-gray-900 ">
               <svg
                 className="h-4 w-4"
                 aria-hidden="true"
@@ -122,7 +126,7 @@ const Footer = () => {
                 />
               </svg>
               <span className="sr-only">GitHub account</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
